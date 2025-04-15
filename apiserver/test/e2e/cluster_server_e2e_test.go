@@ -595,9 +595,9 @@ func TestGetAllClustersByPagination(t *testing.T) {
 		require.NotEmpty(t, response.Clusters, "A list of clusters is required")
 		require.Len(t, response.Clusters, limit, "Number of clusters returned is not as expected")
 		for _, cluster := range response.Clusters {
-			for i := 0; i < numberOfNamespaces; i++ {
-				if isMatchingCluster(tCtxs[i], cluster) {
-					gotClusters[i] = true
+			for j := 0; j < numberOfNamespaces; j++ {
+				if isMatchingCluster(tCtxs[j], cluster) {
+					gotClusters[j] = true
 					break
 				}
 			}
