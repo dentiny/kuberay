@@ -7,8 +7,8 @@ toolchain go1.24.2
 replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
 
 require (
-	github.com/Masterminds/semver/v3 v3.3.1
-	github.com/go-logr/logr v1.4.2
+	github.com/Masterminds/semver/v3 v3.4.0
+	github.com/go-logr/logr v1.4.3
 	github.com/go-logr/zapr v1.3.0
 	github.com/jarcoal/httpmock v1.4.0
 	github.com/onsi/ginkgo/v2 v2.23.4
@@ -71,7 +71,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.62.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/spf13/pflag v1.0.6 // indirect
+	github.com/spf13/pflag v1.0.7 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.opentelemetry.io/otel v1.33.0 // indirect
